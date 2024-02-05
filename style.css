@@ -1,0 +1,19 @@
+header, nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#logga{
+    width: 15%;
+}
+#skugga{
+    margin-left: -5%;
+    width: 110%;
+}
+nav{
+    font-size: 23px;
+    margin-left: 20%;
+    margin-top: -10%;
+}  
