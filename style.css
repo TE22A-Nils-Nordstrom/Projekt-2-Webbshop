@@ -12,8 +12,13 @@ header, nav{
     margin-left: -5%;
     width: 110%;
 }
+
+#beskrivning{
+    font-size: 23px;
+    text-align: center;
+}
 nav{
     font-size: 23px;
     margin-left: 20%;
     margin-top: -10%;
-}  
+}
