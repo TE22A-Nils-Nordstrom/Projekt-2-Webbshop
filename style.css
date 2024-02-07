@@ -1,24 +1,32 @@
-header, nav{
+header{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     gap: 10px;
 }
 
+.headerText{
+    font-size: 50px;
+}
+
+#headerDiv{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 #logga{
-    width: 15%;
+    width: 20%;
+    height: 20%;
 }
 #skugga{
     margin-left: -5%;
-    width: 110%;
+    width: 100%;
 }
 
 #beskrivning{
     font-size: 23px;
-    text-align: center;
+    text-align: left;
 }
 nav{
     font-size: 23px;
-    margin-left: 20%;
-    margin-top: -10%;
 }
