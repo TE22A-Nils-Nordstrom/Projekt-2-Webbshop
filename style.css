@@ -9,8 +9,7 @@ header, nav{
     width: 15%;
 }
 #skugga{
-    width: 110%;
-    margin-left: -5%;
+    width:100%
 }
 
 #beskrivning{
@@ -48,38 +47,63 @@ article img{
     margin-bottom: 15%;
 }
 
-@media (min-width:320px)  {
-    
-
-}
-
+/* ipad */
 @media (min-width:600px)  {
     article img{
         width: 100%;
     }
+    header{
+        display: flex;
+        flex-direction: row;
+        margin: 0%;
+        gap:20px;
+    }
     article{
         width: 40%;
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 3%;
+        margin-right: 3%;
     }
     main{
         display: flex;
-        flex-direction: row ;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
     }
     header h1{
-        font-size: 60px;
+        font-size: 50px;
     }
     #logga{
         height: 10%;
         width: 10%;
     }
-    nav p{
-        
+    .textVänster, .textHöger, #beskrivning{
+        font-size: 30px;
     }
+    nav{
+        font-size: 25px;
+        margin-left: 0%;
+        margin-top: 3%;
+    }  
 }
 
-
+/* desktop */
 @media (min-width:1025px) {
+    article{
+        width: 27%;
+    }
+    #logga{
+        width: 7.5%;
+    }
+    header{
+        gap:75px;
+    }
+    header h1{
+        font-size: 60px;
+    }
+    header p{
+        font-size: 30px;
+    }
+    nav{
+        margin-top: 2%;
+    }
 }
