@@ -32,7 +32,7 @@ article{
 
 }
 
-.articleBild{
+article img{
     width: 100%;
 }
 
@@ -46,4 +46,40 @@ article{
     width: 70%;
     color: grey;
     margin-bottom: 15%;
+}
+
+@media (min-width:320px)  {
+    
+
+}
+
+@media (min-width:600px)  {
+    article img{
+        width: 100%;
+    }
+    article{
+        width: 40%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    main{
+        display: flex;
+        flex-direction: row ;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header h1{
+        font-size: 60px;
+    }
+    #logga{
+        height: 10%;
+        width: 10%;
+    }
+    nav p{
+        
+    }
+}
+
+
+@media (min-width:1025px) {
 }
