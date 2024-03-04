@@ -33,6 +33,7 @@ article{
 
 article img{
     width: 100%;
+    height: 100;
 }
 
 .textHöger, .textVänster{
@@ -47,10 +48,19 @@ article img{
     margin-bottom: 15%;
 }
 
+article:hover{
+    opacity: 50%;
+}
+
+#kundvagn:hover{
+    opacity:50%;
+}
+
 /* ipad */
 @media (min-width:600px)  {
     article img{
         width: 100%;
+        height: 100;
     }
     header{
         display: flex;
