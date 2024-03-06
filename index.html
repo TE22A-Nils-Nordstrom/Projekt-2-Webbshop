@@ -17,7 +17,13 @@
     <header>
         <img id ="logga" src="./img/logga.webp" alt="Hemsidans logga, en Matryoshka docka">
         <h1>Webbshop</h1>
-        <h1 id = "kundvagn" onclick="visaKundvagn()">Kundvagn</h1>
+        <div>
+            <h1 id = "kundvagn" onclick="visaKundvagn()">Kundvagn</h1>
+            <div id = "kundvagnDiv">
+                <ul id = "list"></ul>
+            </div>
+        </div>
+
         <nav>
             <p>Om oss</p>
             <p>||</p>
@@ -29,40 +35,52 @@
     <img id = "skugga" src="./img/skugga.webp" alt="">
     <p id ="beskrivning">Sveriges största utbud av traditionella ryska matryoshka dockor!</p>
     <main>
-        <article onclick="ha('pandor')">
+        <article onclick="ha('Pandas Matryoshka')">
             <img  src = "./img/docka 1.webp" alt="">
-            <p class = "textVänster">Pandas Matryoshka</p>
-            <p class = "textHöger">201.60:-</p>
+            <div>
+                <p class = "textVänster">Pandas Matryoshka</p>
+                <p class = "textHöger">201.60:-</p>
+            </div>
             <p class = "dockBeskrivning">Ryska trädockor tillverkade i stil med pandor</p>
         </article>
-        <article onclick="ha('handgjorda')">
+        <article onclick="ha('Ryska Dockorna')">
             <img src="./img/docka 2.webp" alt="">
-            <p class = "textVänster">Ryska Dockorna</p>
-            <p class = "textHöger">223.40:-</p>
+            <div>
+                <p class = "textVänster">Ryska Dockorna</p>
+                <p class = "textHöger">223.40:-</p>
+            </div>
             <p class = "dockBeskrivning">Handgjorda ryska trädockor höjd 20cm</p>
         </article>
-        <article onclick="ha('snögubbar')">
+        <article onclick="ha('Snögubbar dockor')">
             <img src="./img/docka 3.webp" alt="">
-            <p class = "textVänster">Snögubbar dockor</p>
-            <p class = "textHöger">116.49:-</p>
+            <div>
+                <p class = "textVänster">Snögubbar dockor</p>
+                <p class = "textHöger">116.49:-</p>
+            </div>
             <p class = "dockBeskrivning">Set av 5 stycken matroyshka målade som snögubbar</p>
         </article>
         <article onclick="ha('afrikanska djur')">
             <img src="./img/docka 4.webp" alt="">
-            <p class = "textVänster">Afrikanska djur</p>
-            <p class = "textHöger">233.51:-</p>
+            <div>
+                <p class = "textVänster">Afrikanska djur</p>
+                <p class = "textHöger">233.51:-</p>
+            </div>
             <p class = "dockBeskrivning">Ryska dockor med målning av d.v.s afrikanska djur</p>
         </article>
         <article onclick="ha('pingviner')">
             <img src="./img/docka 5.webp" alt="">
-            <p class = "textVänster">Pingviner</p>
-            <p class = "textHöger">201.60:-</p>
+            <div>
+                <p class = "textVänster">Pingviner</p>
+                <p class = "textHöger">201.60:-</p>
+            </div>
             <p class = "dockBeskrivning">Uppssättning: 7pc av ryska dockor i stil med pingviner</p>
         </article>
         <article onclick="ha('day of the dead')">
             <img src="./img/docka 6.webp" alt="">
-            <p class = "textVänster">Mexikanska dockor</p>
-            <p class = "textHöger">212.23:-</p>
+            <div>
+                <p class = "textVänster">Mexikanska dockor</p>
+                <p class = "textHöger">212.23:-</p>
+            </div>
             <p class = "dockBeskrivning">Ryska dockor i stil av mexikanska Day of the Dead</p>
         </article>
     </main>
