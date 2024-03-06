@@ -71,10 +71,17 @@ article:hover{
 
 #kundvagnDiv{
     display: none;
+    display: flex;
+    overflow: auto;
     position: absolute;
     background-color: white;
     width: 20%;
     height: 60%;
+}
+
+.kundvagnBild{
+    width: 20%;
+    height: 6%;
 }
 
 /* ipad */
